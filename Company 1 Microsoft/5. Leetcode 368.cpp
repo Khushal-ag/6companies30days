@@ -8,7 +8,7 @@ public:
     vector<int> largestDivisibleSubset(vector<int> &nums)
     {
         sort(begin(nums), end(nums));
-        int n = size(nums), max_i = 0;
+        int n = nums.size(), max_i = 0;
         vector<int> dp(n, 1), pred(n, -1), ans;
         for (int i = 1; i < n; i++)
         {
