@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/airplane-seat-assignment-probability/
+#include<bits/stdc++.h>
+using namespace std;
 
 class Solution
 {
