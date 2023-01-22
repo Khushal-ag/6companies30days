@@ -18,7 +18,6 @@ public:
     {
         if (i == n)
         {
-            // if valid, update ans to store maximum good person found till now
             if (valid(S, cur))
                 ans = max(ans, cnt);
             return;
